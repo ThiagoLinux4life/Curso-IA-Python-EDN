@@ -12,4 +12,4 @@ print("Combustivel gasto: 25 Litros")
 consumomedio = 300/25
 
 print(" Você percorreu uma distância de 300 km com 25 litros de gasolina!")
-print(f"Consumo médio: {consumomedio:.2f}")
+print(f"Consumo médio: {consumomedio:.2f}km/l")
