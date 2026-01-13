@@ -7,11 +7,12 @@
 ano = int(input("Entre com o ano: "))
 print(" Verificando se o", ano , "é Bissexto. Aguarde...")
 
-if 0 == ano%4:
+
+if ano // 4 and  0 == ano%400:
     print(" O" , ano ,"é bissexto")
 
-if 0 == ano%100:
-   print("Este ano é centenário!")
+elif 0 == ano%100 and 0 != ano%400:
+    print("Este é um ano centenário!")
 
 else:
     print("É um ano Normal!")
