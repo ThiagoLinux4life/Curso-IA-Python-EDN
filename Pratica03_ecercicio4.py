@@ -8,7 +8,7 @@ ano = int(input("Entre com o ano: "))
 print(" Verificando se o", ano , "é Bissexto. Aguarde...")
 
 
-if ano // 4 and  0 == ano%400:
+if 0 == ano%400 and 0 == ano%4:
     print(" O" , ano ,"é bissexto")
 
 elif 0 == ano%100 and 0 != ano%400:
