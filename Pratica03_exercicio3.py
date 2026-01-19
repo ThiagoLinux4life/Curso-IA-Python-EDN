@@ -17,6 +17,7 @@ convertfahrenheit_celsius = (temperatura - 32) * 5/9
 convertkelvin_fahrenheit = (temperatura - 273.15) * 9/5 + 32
 convertfahrenheit_kelvin = (temperatura - 32) * 5/9 + 273.15
 
+
 if unidadedeorigem == "C" and unidadededestino == "K":
     print(f"{convertcelsius_kelvin:.2f} °K")
 
@@ -34,3 +35,5 @@ if unidadedeorigem == "K" and unidadededestino == "F":
 
 if unidadedeorigem == "F" and unidadededestino == "K":
     print(f"{convertfahrenheit_kelvin:.2f} ° K")
+
+
